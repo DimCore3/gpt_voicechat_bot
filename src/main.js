@@ -10,7 +10,12 @@ console.log(config.get("TEST_ENV"));
 
 const users = [
     492402006,
-    1454495143
+    1454495143,
+    1108994289,
+    1653703232,
+    1362579609,
+    272015797,
+    189551234
 ];
 
 const INITIAL_SESSION = {
