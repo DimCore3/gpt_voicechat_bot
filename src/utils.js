@@ -7,3 +7,12 @@ export async function removeFile(path) {
         console.log('Error while do removeFile function:',error.message);
     }
 };
+
+export function isUserHasAccess(list, userId) {
+    for (let id of list) {
+        if (userId === id) {
+            return true;
+        };
+    };
+    return false;
+};
